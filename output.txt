@@ -315,3 +315,17 @@ Mode of Transportation Distribution by Location:
 +----+---------------------+---------------+------------+-------------+
 
 
+Commute time statistics: 
+Average Commute time = 72.66 min
+Median of Commute time = 72.5 min
+Variance of Commute time = 721.54 min
+Standard deviation of Commute time = 26.86 min
+Range of Commute time = 103 min
+
+
+Distance statistics: 
+Average Distance travelled = 14.1 km
+Median of Distance travelled = 13.0 km
+Variance of Distance travelled = 70.53 km
+Standard Deviation of Distance travelled = 8.4 km
+Range of Distance travelled = 28 km
