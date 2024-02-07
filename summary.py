@@ -36,4 +36,5 @@ def main():
     dist_range = round(np.max(base_df['DIST (km)']) - np.min(base_df['DIST (km)']),2)
     print(f"Range of Distance travelled = {dist_range} km")
 
-
+if __name__ == "__main__":
+    main()
