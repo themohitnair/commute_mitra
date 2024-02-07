@@ -1,0 +1,317 @@
+Data used: 
++----+---------------------+---------------+------------+-------------+
+|    | LOC                 | MOT           |   CT (min) |   DIST (km) |
+|----+---------------------+---------------+------------+-------------|
+|  0 | Vijaynagar          | Car           |        116 |          24 |
+|  1 | Bangalore South     | Bus           |         61 |          11 |
+|  2 | BTM Layout          | Walk          |         95 |          21 |
+|  3 | CV Raman Nagar      | Miscellaneous |         74 |           5 |
+|  4 | CV Raman Nagar      | Miscellaneous |         50 |          12 |
+|  5 | Rajarajeshwarinagar | Two-wheeler   |         72 |          11 |
+|  6 | Govindrajnagar      | Miscellaneous |        114 |          20 |
+|  7 | Malleshwaram        | Miscellaneous |         80 |           6 |
+|  8 | Krishnarajapuram    | Walk          |         67 |           6 |
+|  9 | Shivajinagar        | Car           |         38 |           1 |
+| 10 | Bangalore South     | Walk          |         68 |           7 |
+| 11 | Bommanahalli        | Bus           |         97 |          14 |
+| 12 | Malleshwaram        | Walk          |        119 |          22 |
+| 13 | Dasarahalli         | Car           |         55 |          16 |
+| 14 | Govindrajnagar      | Car           |         97 |          24 |
+| 15 | Rajarajeshwarinagar | Miscellaneous |         17 |           7 |
+| 16 | Basavanagudi        | Two-wheeler   |         49 |           1 |
+| 17 | Chickpet            | Car           |         74 |          29 |
+| 18 | Yeshwantpur         | Car           |        112 |          28 |
+| 19 | Jayanagar           | Car           |         67 |          10 |
+| 20 | Bangalore South     | Two-wheeler   |         36 |           7 |
+| 21 | Vijaynagar          | Miscellaneous |         56 |          29 |
+| 22 | Malleshwaram        | Miscellaneous |         21 |          24 |
+| 23 | Yelahanka           | Miscellaneous |         59 |           6 |
+| 24 | Padmanabhanagar     | Car           |        103 |           5 |
+| 25 | Shivajinagar        | Two-wheeler   |         73 |          14 |
+| 26 | Shantinagar         | Two-wheeler   |         62 |          28 |
+| 27 | Yeshwantpur         | Walk          |         36 |          28 |
+| 28 | Vijaynagar          | Car           |        120 |          16 |
+| 29 | Vijaynagar          | Bus           |         59 |          10 |
+| 30 | Gandhinagar         | Walk          |        100 |          20 |
+| 31 | BTM Layout          | Two-wheeler   |         39 |           8 |
+| 32 | Yeshwantpur         | Miscellaneous |         82 |          24 |
+| 33 | Basavanagudi        | Miscellaneous |        116 |          11 |
+| 34 | Krishnarajapuram    | Two-wheeler   |         25 |          21 |
+| 35 | Shantinagar         | Bus           |         84 |          16 |
+| 36 | Anekal              | Miscellaneous |         84 |           2 |
+| 37 | Hebbal              | Bus           |         33 |          23 |
+| 38 | Shantinagar         | Walk          |         80 |          23 |
+| 39 | Govindrajnagar      | Walk          |         74 |          18 |
+| 40 | Shantinagar         | Two-wheeler   |        105 |           6 |
+| 41 | Padmanabhanagar     | Bus           |         56 |          20 |
+| 42 | Padmanabhanagar     | Miscellaneous |        101 |           4 |
+| 43 | Chamrajpet          | Miscellaneous |         84 |           7 |
+| 44 | Shivajinagar        | Miscellaneous |         61 |           1 |
+| 45 | Basavanagudi        | Walk          |         81 |          19 |
+| 46 | Yeshwantpur         | Car           |         59 |          11 |
+| 47 | Sarvagnagar         | Car           |        102 |          15 |
+| 48 | Byatarayanapura     | Bus           |         64 |          11 |
+| 49 | Mahadevapura        | Bus           |         56 |           3 |
++----+---------------------+---------------+------------+-------------+
+
+
+Number of commuters to RIT from various areas in Bangalore: 
++----+---------------------+-----+
+|    | LOC                 |   n |
+|----+---------------------+-----|
+|  0 | Anekal              |   1 |
+|  1 | BTM Layout          |   2 |
+|  2 | Bangalore South     |   3 |
+|  3 | Basavanagudi        |   3 |
+|  4 | Bommanahalli        |   1 |
+|  5 | Byatarayanapura     |   1 |
+|  6 | CV Raman Nagar      |   2 |
+|  7 | Chamrajpet          |   1 |
+|  8 | Chickpet            |   1 |
+|  9 | Dasarahalli         |   1 |
+| 10 | Gandhinagar         |   1 |
+| 11 | Govindrajnagar      |   3 |
+| 12 | Hebbal              |   1 |
+| 13 | Jayanagar           |   1 |
+| 14 | Krishnarajapuram    |   2 |
+| 15 | Mahadevapura        |   1 |
+| 16 | Malleshwaram        |   3 |
+| 17 | Padmanabhanagar     |   3 |
+| 18 | Rajarajeshwarinagar |   2 |
+| 19 | Sarvagnagar         |   1 |
+| 20 | Shantinagar         |   4 |
+| 21 | Shivajinagar        |   3 |
+| 22 | Vijaynagar          |   4 |
+| 23 | Yelahanka           |   1 |
+| 24 | Yeshwantpur         |   4 |
++----+---------------------+-----+
+
+
+Number of commuters using various modes of transportation on their commute to RIT: 
++----+---------------------+---------------+------------+-------------+
+|    | LOC                 | MOT           |   CT (min) |   DIST (km) |
+|----+---------------------+---------------+------------+-------------|
+|  0 | Vijaynagar          | Car           |        116 |          24 |
+|  1 | Bangalore South     | Bus           |         61 |          11 |
+|  2 | BTM Layout          | Walk          |         95 |          21 |
+|  3 | CV Raman Nagar      | Miscellaneous |         74 |           5 |
+|  4 | CV Raman Nagar      | Miscellaneous |         50 |          12 |
+|  5 | Rajarajeshwarinagar | Two-wheeler   |         72 |          11 |
+|  6 | Govindrajnagar      | Miscellaneous |        114 |          20 |
+|  7 | Malleshwaram        | Miscellaneous |         80 |           6 |
+|  8 | Krishnarajapuram    | Walk          |         67 |           6 |
+|  9 | Shivajinagar        | Car           |         38 |           1 |
+| 10 | Bangalore South     | Walk          |         68 |           7 |
+| 11 | Bommanahalli        | Bus           |         97 |          14 |
+| 12 | Malleshwaram        | Walk          |        119 |          22 |
+| 13 | Dasarahalli         | Car           |         55 |          16 |
+| 14 | Govindrajnagar      | Car           |         97 |          24 |
+| 15 | Rajarajeshwarinagar | Miscellaneous |         17 |           7 |
+| 16 | Basavanagudi        | Two-wheeler   |         49 |           1 |
+| 17 | Chickpet            | Car           |         74 |          29 |
+| 18 | Yeshwantpur         | Car           |        112 |          28 |
+| 19 | Jayanagar           | Car           |         67 |          10 |
+| 20 | Bangalore South     | Two-wheeler   |         36 |           7 |
+| 21 | Vijaynagar          | Miscellaneous |         56 |          29 |
+| 22 | Malleshwaram        | Miscellaneous |         21 |          24 |
+| 23 | Yelahanka           | Miscellaneous |         59 |           6 |
+| 24 | Padmanabhanagar     | Car           |        103 |           5 |
+| 25 | Shivajinagar        | Two-wheeler   |         73 |          14 |
+| 26 | Shantinagar         | Two-wheeler   |         62 |          28 |
+| 27 | Yeshwantpur         | Walk          |         36 |          28 |
+| 28 | Vijaynagar          | Car           |        120 |          16 |
+| 29 | Vijaynagar          | Bus           |         59 |          10 |
+| 30 | Gandhinagar         | Walk          |        100 |          20 |
+| 31 | BTM Layout          | Two-wheeler   |         39 |           8 |
+| 32 | Yeshwantpur         | Miscellaneous |         82 |          24 |
+| 33 | Basavanagudi        | Miscellaneous |        116 |          11 |
+| 34 | Krishnarajapuram    | Two-wheeler   |         25 |          21 |
+| 35 | Shantinagar         | Bus           |         84 |          16 |
+| 36 | Anekal              | Miscellaneous |         84 |           2 |
+| 37 | Hebbal              | Bus           |         33 |          23 |
+| 38 | Shantinagar         | Walk          |         80 |          23 |
+| 39 | Govindrajnagar      | Walk          |         74 |          18 |
+| 40 | Shantinagar         | Two-wheeler   |        105 |           6 |
+| 41 | Padmanabhanagar     | Bus           |         56 |          20 |
+| 42 | Padmanabhanagar     | Miscellaneous |        101 |           4 |
+| 43 | Chamrajpet          | Miscellaneous |         84 |           7 |
+| 44 | Shivajinagar        | Miscellaneous |         61 |           1 |
+| 45 | Basavanagudi        | Walk          |         81 |          19 |
+| 46 | Yeshwantpur         | Car           |         59 |          11 |
+| 47 | Sarvagnagar         | Car           |        102 |          15 |
+| 48 | Byatarayanapura     | Bus           |         64 |          11 |
+| 49 | Mahadevapura        | Bus           |         56 |           3 |
++----+---------------------+---------------+------------+-------------+
+
+
+Average Commute time by Location of commuter origin: 
++----+---------------------+---------------+------------+-------------+
+|    | LOC                 | MOT           |   CT (min) |   DIST (km) |
+|----+---------------------+---------------+------------+-------------|
+|  0 | Vijaynagar          | Car           |        116 |          24 |
+|  1 | Bangalore South     | Bus           |         61 |          11 |
+|  2 | BTM Layout          | Walk          |         95 |          21 |
+|  3 | CV Raman Nagar      | Miscellaneous |         74 |           5 |
+|  4 | CV Raman Nagar      | Miscellaneous |         50 |          12 |
+|  5 | Rajarajeshwarinagar | Two-wheeler   |         72 |          11 |
+|  6 | Govindrajnagar      | Miscellaneous |        114 |          20 |
+|  7 | Malleshwaram        | Miscellaneous |         80 |           6 |
+|  8 | Krishnarajapuram    | Walk          |         67 |           6 |
+|  9 | Shivajinagar        | Car           |         38 |           1 |
+| 10 | Bangalore South     | Walk          |         68 |           7 |
+| 11 | Bommanahalli        | Bus           |         97 |          14 |
+| 12 | Malleshwaram        | Walk          |        119 |          22 |
+| 13 | Dasarahalli         | Car           |         55 |          16 |
+| 14 | Govindrajnagar      | Car           |         97 |          24 |
+| 15 | Rajarajeshwarinagar | Miscellaneous |         17 |           7 |
+| 16 | Basavanagudi        | Two-wheeler   |         49 |           1 |
+| 17 | Chickpet            | Car           |         74 |          29 |
+| 18 | Yeshwantpur         | Car           |        112 |          28 |
+| 19 | Jayanagar           | Car           |         67 |          10 |
+| 20 | Bangalore South     | Two-wheeler   |         36 |           7 |
+| 21 | Vijaynagar          | Miscellaneous |         56 |          29 |
+| 22 | Malleshwaram        | Miscellaneous |         21 |          24 |
+| 23 | Yelahanka           | Miscellaneous |         59 |           6 |
+| 24 | Padmanabhanagar     | Car           |        103 |           5 |
+| 25 | Shivajinagar        | Two-wheeler   |         73 |          14 |
+| 26 | Shantinagar         | Two-wheeler   |         62 |          28 |
+| 27 | Yeshwantpur         | Walk          |         36 |          28 |
+| 28 | Vijaynagar          | Car           |        120 |          16 |
+| 29 | Vijaynagar          | Bus           |         59 |          10 |
+| 30 | Gandhinagar         | Walk          |        100 |          20 |
+| 31 | BTM Layout          | Two-wheeler   |         39 |           8 |
+| 32 | Yeshwantpur         | Miscellaneous |         82 |          24 |
+| 33 | Basavanagudi        | Miscellaneous |        116 |          11 |
+| 34 | Krishnarajapuram    | Two-wheeler   |         25 |          21 |
+| 35 | Shantinagar         | Bus           |         84 |          16 |
+| 36 | Anekal              | Miscellaneous |         84 |           2 |
+| 37 | Hebbal              | Bus           |         33 |          23 |
+| 38 | Shantinagar         | Walk          |         80 |          23 |
+| 39 | Govindrajnagar      | Walk          |         74 |          18 |
+| 40 | Shantinagar         | Two-wheeler   |        105 |           6 |
+| 41 | Padmanabhanagar     | Bus           |         56 |          20 |
+| 42 | Padmanabhanagar     | Miscellaneous |        101 |           4 |
+| 43 | Chamrajpet          | Miscellaneous |         84 |           7 |
+| 44 | Shivajinagar        | Miscellaneous |         61 |           1 |
+| 45 | Basavanagudi        | Walk          |         81 |          19 |
+| 46 | Yeshwantpur         | Car           |         59 |          11 |
+| 47 | Sarvagnagar         | Car           |        102 |          15 |
+| 48 | Byatarayanapura     | Bus           |         64 |          11 |
+| 49 | Mahadevapura        | Bus           |         56 |           3 |
++----+---------------------+---------------+------------+-------------+
+
+
+Average Commute time by Mode of transport of commute: 
++----+---------------------+---------------+------------+-------------+
+|    | LOC                 | MOT           |   CT (min) |   DIST (km) |
+|----+---------------------+---------------+------------+-------------|
+|  0 | Vijaynagar          | Car           |        116 |          24 |
+|  1 | Bangalore South     | Bus           |         61 |          11 |
+|  2 | BTM Layout          | Walk          |         95 |          21 |
+|  3 | CV Raman Nagar      | Miscellaneous |         74 |           5 |
+|  4 | CV Raman Nagar      | Miscellaneous |         50 |          12 |
+|  5 | Rajarajeshwarinagar | Two-wheeler   |         72 |          11 |
+|  6 | Govindrajnagar      | Miscellaneous |        114 |          20 |
+|  7 | Malleshwaram        | Miscellaneous |         80 |           6 |
+|  8 | Krishnarajapuram    | Walk          |         67 |           6 |
+|  9 | Shivajinagar        | Car           |         38 |           1 |
+| 10 | Bangalore South     | Walk          |         68 |           7 |
+| 11 | Bommanahalli        | Bus           |         97 |          14 |
+| 12 | Malleshwaram        | Walk          |        119 |          22 |
+| 13 | Dasarahalli         | Car           |         55 |          16 |
+| 14 | Govindrajnagar      | Car           |         97 |          24 |
+| 15 | Rajarajeshwarinagar | Miscellaneous |         17 |           7 |
+| 16 | Basavanagudi        | Two-wheeler   |         49 |           1 |
+| 17 | Chickpet            | Car           |         74 |          29 |
+| 18 | Yeshwantpur         | Car           |        112 |          28 |
+| 19 | Jayanagar           | Car           |         67 |          10 |
+| 20 | Bangalore South     | Two-wheeler   |         36 |           7 |
+| 21 | Vijaynagar          | Miscellaneous |         56 |          29 |
+| 22 | Malleshwaram        | Miscellaneous |         21 |          24 |
+| 23 | Yelahanka           | Miscellaneous |         59 |           6 |
+| 24 | Padmanabhanagar     | Car           |        103 |           5 |
+| 25 | Shivajinagar        | Two-wheeler   |         73 |          14 |
+| 26 | Shantinagar         | Two-wheeler   |         62 |          28 |
+| 27 | Yeshwantpur         | Walk          |         36 |          28 |
+| 28 | Vijaynagar          | Car           |        120 |          16 |
+| 29 | Vijaynagar          | Bus           |         59 |          10 |
+| 30 | Gandhinagar         | Walk          |        100 |          20 |
+| 31 | BTM Layout          | Two-wheeler   |         39 |           8 |
+| 32 | Yeshwantpur         | Miscellaneous |         82 |          24 |
+| 33 | Basavanagudi        | Miscellaneous |        116 |          11 |
+| 34 | Krishnarajapuram    | Two-wheeler   |         25 |          21 |
+| 35 | Shantinagar         | Bus           |         84 |          16 |
+| 36 | Anekal              | Miscellaneous |         84 |           2 |
+| 37 | Hebbal              | Bus           |         33 |          23 |
+| 38 | Shantinagar         | Walk          |         80 |          23 |
+| 39 | Govindrajnagar      | Walk          |         74 |          18 |
+| 40 | Shantinagar         | Two-wheeler   |        105 |           6 |
+| 41 | Padmanabhanagar     | Bus           |         56 |          20 |
+| 42 | Padmanabhanagar     | Miscellaneous |        101 |           4 |
+| 43 | Chamrajpet          | Miscellaneous |         84 |           7 |
+| 44 | Shivajinagar        | Miscellaneous |         61 |           1 |
+| 45 | Basavanagudi        | Walk          |         81 |          19 |
+| 46 | Yeshwantpur         | Car           |         59 |          11 |
+| 47 | Sarvagnagar         | Car           |        102 |          15 |
+| 48 | Byatarayanapura     | Bus           |         64 |          11 |
+| 49 | Mahadevapura        | Bus           |         56 |           3 |
++----+---------------------+---------------+------------+-------------+
+
+
+Mode of Transportation Distribution by Location: 
++----+---------------------+---------------+------------+-------------+
+|    | LOC                 | MOT           |   CT (min) |   DIST (km) |
+|----+---------------------+---------------+------------+-------------|
+|  0 | Vijaynagar          | Car           |        116 |          24 |
+|  1 | Bangalore South     | Bus           |         61 |          11 |
+|  2 | BTM Layout          | Walk          |         95 |          21 |
+|  3 | CV Raman Nagar      | Miscellaneous |         74 |           5 |
+|  4 | CV Raman Nagar      | Miscellaneous |         50 |          12 |
+|  5 | Rajarajeshwarinagar | Two-wheeler   |         72 |          11 |
+|  6 | Govindrajnagar      | Miscellaneous |        114 |          20 |
+|  7 | Malleshwaram        | Miscellaneous |         80 |           6 |
+|  8 | Krishnarajapuram    | Walk          |         67 |           6 |
+|  9 | Shivajinagar        | Car           |         38 |           1 |
+| 10 | Bangalore South     | Walk          |         68 |           7 |
+| 11 | Bommanahalli        | Bus           |         97 |          14 |
+| 12 | Malleshwaram        | Walk          |        119 |          22 |
+| 13 | Dasarahalli         | Car           |         55 |          16 |
+| 14 | Govindrajnagar      | Car           |         97 |          24 |
+| 15 | Rajarajeshwarinagar | Miscellaneous |         17 |           7 |
+| 16 | Basavanagudi        | Two-wheeler   |         49 |           1 |
+| 17 | Chickpet            | Car           |         74 |          29 |
+| 18 | Yeshwantpur         | Car           |        112 |          28 |
+| 19 | Jayanagar           | Car           |         67 |          10 |
+| 20 | Bangalore South     | Two-wheeler   |         36 |           7 |
+| 21 | Vijaynagar          | Miscellaneous |         56 |          29 |
+| 22 | Malleshwaram        | Miscellaneous |         21 |          24 |
+| 23 | Yelahanka           | Miscellaneous |         59 |           6 |
+| 24 | Padmanabhanagar     | Car           |        103 |           5 |
+| 25 | Shivajinagar        | Two-wheeler   |         73 |          14 |
+| 26 | Shantinagar         | Two-wheeler   |         62 |          28 |
+| 27 | Yeshwantpur         | Walk          |         36 |          28 |
+| 28 | Vijaynagar          | Car           |        120 |          16 |
+| 29 | Vijaynagar          | Bus           |         59 |          10 |
+| 30 | Gandhinagar         | Walk          |        100 |          20 |
+| 31 | BTM Layout          | Two-wheeler   |         39 |           8 |
+| 32 | Yeshwantpur         | Miscellaneous |         82 |          24 |
+| 33 | Basavanagudi        | Miscellaneous |        116 |          11 |
+| 34 | Krishnarajapuram    | Two-wheeler   |         25 |          21 |
+| 35 | Shantinagar         | Bus           |         84 |          16 |
+| 36 | Anekal              | Miscellaneous |         84 |           2 |
+| 37 | Hebbal              | Bus           |         33 |          23 |
+| 38 | Shantinagar         | Walk          |         80 |          23 |
+| 39 | Govindrajnagar      | Walk          |         74 |          18 |
+| 40 | Shantinagar         | Two-wheeler   |        105 |           6 |
+| 41 | Padmanabhanagar     | Bus           |         56 |          20 |
+| 42 | Padmanabhanagar     | Miscellaneous |        101 |           4 |
+| 43 | Chamrajpet          | Miscellaneous |         84 |           7 |
+| 44 | Shivajinagar        | Miscellaneous |         61 |           1 |
+| 45 | Basavanagudi        | Walk          |         81 |          19 |
+| 46 | Yeshwantpur         | Car           |         59 |          11 |
+| 47 | Sarvagnagar         | Car           |        102 |          15 |
+| 48 | Byatarayanapura     | Bus           |         64 |          11 |
+| 49 | Mahadevapura        | Bus           |         56 |           3 |
++----+---------------------+---------------+------------+-------------+
+
+
